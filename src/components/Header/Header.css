@@ -1,0 +1,73 @@
+.header {
+    background-color: black;
+    height: 100px;
+
+}
+
+.header-wrapper {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+
+    filter: drop-shadow(0px 3px 2px #FBAD3A);
+}
+
+.heder-box {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.heder-heading {
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'AlegreyaSans-Bold';
+    letter-spacing: 0.07em;
+    font-size: 36px;
+}
+
+.heder-heading_word {
+    color: #FBAD3A;
+}
+
+.heder-tel {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.heder-tel::before {
+    content: "";
+    background: url(./tel.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+    color: #FBAD3A;
+    list-style-type: none;
+    border-bottom: 1px solid #FBAD3A;
+
+}

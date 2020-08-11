@@ -1,0 +1,133 @@
+h1 {
+	font-size: 60px;
+	color: #FBAD3A;
+	font-weight: 550;
+}
+
+.slider-box {
+	display: flex;
+	width: 100%;
+	flex-flow: column nowrap;
+	align-items: center;
+
+}
+
+.slider-box-heder {
+	letter-spacing: 0;
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 30px;
+
+	line-height: 0.9em;
+	color: white;
+}
+
+
+
+.slider {
+	height: 600px;
+	width: auto;
+	padding-bottom: 150px;
+	position: relative;
+}
+
+.sleder-blackout {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.slider1-box-heder::before {
+	content: "";
+	background: url(./Slider1/bizness.svg) no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 100px;
+	height: 98px;
+	top: -33px;
+	left: -150px;
+
+}
+
+.slider2-box-heder::before {
+	content: "";
+	background: url(./Slider2/transfer.svg) no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: 5px;
+	left: -170px;
+
+}
+
+.slider3-box-heder::before {
+	content: "";
+	background: url(./Slider3/box.svg) no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	top: -33px;
+	left: -157px;
+
+}
+
+.slider4-box-heder::before {
+	content: "";
+	background: url(./Slider4/clock.svg) no-repeat;
+	background-size: contain;
+	position: absolute;
+	width: 108px;
+	height: 103px;
+	top: -33px;
+	left: -157px;
+
+}
+
+.slider1 {
+	background: url(../../SliderImages/slider1.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slider2 {
+	background: url(../../SliderImages/slider2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slider3 {
+	background: url(../../SliderImages/slider3.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slider4 {
+	background: url(../../SliderImages/slider4.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slider-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider-list {
+	color: #FBAD3A;
+	font-size: 24px;
+	margin-top: 5px;
+	z-index: 1;
+}
+
+.slider-list li {
+	margin-bottom: 10px;
+}
+
+.slider-list_color {
+	color: white;
+}
