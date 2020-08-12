@@ -14,6 +14,9 @@ import icon3_w from '../../SliderImages/box-W.svg'
 import icon4_o from '../../SliderImages/clock-O.svg'
 import icon4_w from '../../SliderImages/clock-W.svg'
 
+import icon5_o from '../../SliderImages/baby-O.svg'
+import icon5_w from '../../SliderImages/baby-W.svg'
+
 import Slider1 from './Slider1/Slider1'
 import Slider2 from './Slider2/Slider2'
 import Slider3 from './Slider3/Slider3'
@@ -102,8 +105,7 @@ class SimpleSlider extends React.Component {
 										? icon1_w
 										: icon1_o
 								}
-								hright='70px'
-								width='70px'
+								className='section1-sliderIcons_size'
 								alt='слайд1'
 							/>
 
@@ -132,8 +134,7 @@ class SimpleSlider extends React.Component {
 										? icon2_w
 										: icon2_o
 								}
-								hright='80px'
-								width='80px'
+								className='section1-sliderIcons_size'
 								alt='слайд2'
 							/>
 
@@ -162,8 +163,7 @@ class SimpleSlider extends React.Component {
 										? icon3_w
 										: icon3_o
 								}
-								hright='70px'
-								width='70px'
+								className='section1-sliderIcons_size'
 								alt='слайд3'
 							/>
 
@@ -192,8 +192,7 @@ class SimpleSlider extends React.Component {
 										? icon4_w
 										: icon4_o
 								}
-								hright='75px'
-								width='75px'
+								className='section1-sliderIcons_size'
 								alt='слайд4'
 							/>
 
@@ -217,13 +216,23 @@ class SimpleSlider extends React.Component {
 						>
 							<img
 								id='slider5'
-								src={icon1_o}
-								hright='80px'
-								width='80px'
+								src={
+									mouseOver === 'slider5' || slide === 'slider5'
+										? icon5_w
+										: icon5_o
+								}
+								className='section1-sliderIcons_size'
 								alt='слайд5'
 							/>
 
-							<div id='slider5' className='txt_wrapper'>
+							<div
+								id='slider5'
+								className={`section1-sliderIcons_txt_wrapper ${
+									slide === 'slider5'
+										? 'section1-sliderIcons_txt_wrapper-wite'
+										: null
+								}`}
+							>
 								Встреча из<br></br>роддома
 							</div>
 						</div>

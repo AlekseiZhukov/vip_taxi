@@ -15,13 +15,7 @@ export class Header extends Component {
 			<div className='header'>
 				<div className='header-wrapper'>
 					<div className='heder-box'>
-						<img
-							src={logo}
-							height='45px'
-							width='205px'
-							alt='логотип'
-							className=''
-						/>
+						<img src={logo} alt='логотип' className='header-logo' />
 
 						<div className='nav-box'>
 							<h1 className='heder-heading'>

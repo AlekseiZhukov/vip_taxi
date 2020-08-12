@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../Button/Button'
 import '../Slider.css'
 
 import styled, { keyframes } from 'styled-components'
@@ -40,9 +41,7 @@ const Slider1 = () => {
 										наличный и безналичный расчет
 									</span>
 								</li>
-								<li>
-									<span className='slider-list_color'>корпоративное такси</span>
-								</li>
+
 								<li>
 									<span className='slider-list_color'>
 										прохладительные напитки, Wi-Fi и музыка<br></br>в
@@ -51,6 +50,9 @@ const Slider1 = () => {
 								</li>
 							</ul>
 						</Slide>
+						<div className='slider-button'>
+							<Button value='заказать такси' className='slider-button_style' />
+						</div>
 					</div>
 				</div>
 			</div>

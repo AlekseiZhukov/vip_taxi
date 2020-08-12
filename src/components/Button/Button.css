@@ -1,0 +1,9 @@
+.btn {
+    height: 3vw;
+    width: 15vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #FBAD3A;
+    color: #000;
+    z-index: 2;
+}

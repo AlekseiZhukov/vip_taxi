@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Slider.css'
+import Button from '../../Button/Button'
 
 import styled, { keyframes } from 'styled-components'
 import { fadeIn } from 'react-animations'
@@ -42,6 +43,9 @@ const Slider3 = () => {
 								</li>
 							</ul>
 						</Slide>
+						<div className='slider-button'>
+							<Button value='заказать такси' className='slider-button_style' />
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Slider.css'
+import Button from '../../Button/Button'
 
 import styled, { keyframes } from 'styled-components'
 import { fadeIn } from 'react-animations'
@@ -17,7 +18,7 @@ const Slider2 = () => {
 				<div className='slider-wrapper'>
 					<div className='slider-box'>
 						<h1 className='slider-box-heder slider2-box-heder'>
-							Трансфер аэропорт<br></br>или Ж/Д вокзал
+							Трансфер аэропорт или Ж/Д вокзал
 						</h1>
 						<Slide right cascade>
 							<ul className='slider-list'>
@@ -32,9 +33,7 @@ const Slider2 = () => {
 									</span>
 								</li>
 								<li>
-									<span className='slider-list_color'>
-										встреча с табличкой<br></br>(сообщить оператору при заказе)
-									</span>
+									<span className='slider-list_color'>встреча с табличкой</span>
 								</li>
 
 								<li>
@@ -50,6 +49,9 @@ const Slider2 = () => {
 								</li>
 							</ul>
 						</Slide>
+						<div className='slider-button'>
+							<Button value='заказать такси' className='slider-button_style' />
+						</div>
 					</div>
 				</div>
 			</div>
