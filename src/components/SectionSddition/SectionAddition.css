@@ -1,0 +1,42 @@
+.sectionAddition {
+    position: relative;
+    background: rgb(89, 89, 89);
+    height: 20vw;
+    width: 100%;
+
+}
+
+.sectionAddition-wrapper {
+    height: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.sectionAddition-wrapper-box {
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-between;
+}
+
+.sectionAddoition_heder1::before {
+    content: "";
+    background: url(../../SliderImages/transfer-O.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -8vw;
+}
+
+.sectionAddoition_heder3::before {
+    content: "";
+    background: url(./rub.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -8vw;
+}

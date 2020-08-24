@@ -1,0 +1,70 @@
+.section3 {
+    position: relative;
+    background: radial-gradient(40% 40%, white, #FBAD3A);
+    height: 40vw;
+    width: 100%;
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+}
+
+.section3-wrapper {
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.section3-wrapper-box {
+    width: 70vw;
+    height: 30vw;
+    margin: 0 auto;
+    border: black 0.4vw solid;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    border-top-right-radius: 2vw;
+}
+
+.section3-header {
+    color: black;
+    font-weight: bolder;
+    font-size: 3.5vw;
+    margin: 0;
+    margin-bottom: 2vw;
+}
+
+.section3-tab-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+
+.section3-tab {
+
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    background-color: white;
+
+    width: 33%;
+    height: 3vw;
+    cursor: pointer;
+
+}
+
+.section3-tab p {
+    text-transform: uppercase;
+    color: black;
+    margin: 0.9vw 0.9vw 0;
+    font-weight: bold;
+    font-size: 1.2vw;
+
+}
+
+.tabActive {
+    background-color: black;
+}
+
+.tabActive p {
+    color: white;
+    font-weight: normal;
+}

@@ -1,0 +1,41 @@
+.section5 {
+    padding-top: 2vw;
+    background: #FBAD3A;
+    height: 25vw;
+}
+
+.section5 h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.section5-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.section5-wrapper_box {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 50%;
+    height: 12vw;
+    padding: 0 2vw;
+}
+
+.section5-wrapper_box p {
+    font-size: 1.6vw;
+}
+
+.section5-wrapper_yandex {
+    width: 20vw;
+    height: auto;
+}

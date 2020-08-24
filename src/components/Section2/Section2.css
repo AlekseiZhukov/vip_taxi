@@ -1,0 +1,100 @@
+.section2 {
+    position: relative;
+    top: -4vw;
+}
+
+.section2-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.section2-box {
+    width: 17vw;
+    height: 50%;
+
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 11vw;
+    margin-top: 3vw;
+}
+
+.section2-box_heder {
+    color: #FBAD3A;
+    font-size: 1.7vw;
+    margin: 0.5vw 0;
+    margin-bottom: 2vw;
+    position: relative;
+}
+
+.section2-box1_heder::before {
+    content: "";
+    background: url(./soberdriver.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: -1.2vw;
+    left: -8vw;
+}
+
+.section2-box2_heder::before {
+    content: "";
+    background: url(./ChooswCars.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: -1.2vw;
+    left: -8vw;
+}
+
+.section2-box3_heder::before {
+    content: "";
+    background: url(./BabyChair.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -6vw;
+}
+
+.section2-box4_heder::before {
+    content: "";
+    background: url(./bankcards.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -7vw;
+}
+
+.section2-box5_heder::before {
+    content: "";
+    background: url(./incognito.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -7vw;
+}
+
+.section2-box6_heder::before {
+    content: "";
+    background: url(./driver.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -7vw;
+}
+
+.section2-box-text {
+    margin: 0.5vw 0;
+}

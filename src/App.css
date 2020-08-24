@@ -7,3 +7,7 @@
   src: url('../src/fonts/AlegreyaSans-Bold.ttf');
   font-family: 'AlegreyaSans-Bold';
 }
+
+.body-color {
+  background-color: black;
+}

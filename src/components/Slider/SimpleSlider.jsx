@@ -33,7 +33,6 @@ class SimpleSlider extends React.Component {
 	}
 
 	onClickDiv = (event) => {
-		console.log(event)
 		const id = event.target.id
 
 		if (id === 'slider1') {
@@ -46,11 +45,10 @@ class SimpleSlider extends React.Component {
 		}
 		if (id === 'slider5') {
 		}
-		console.log(id)
+
 		this.setState({
 			slide: id,
 		})
-		console.log(this.state)
 	}
 
 	hendleMouseOver = (event) => {

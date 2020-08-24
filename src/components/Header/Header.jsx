@@ -11,6 +11,7 @@ const Pulse = styled.div`
 
 export class Header extends Component {
 	render() {
+		const { click } = this.props
 		return (
 			<div className='header'>
 				<div className='header-wrapper'>
@@ -25,10 +26,17 @@ export class Header extends Component {
 								<span className='heder-heading_word'>Н</span>овгород
 							</h1>
 							<ul className='nav'>
-								<li>тарифы</li>
+								<li>
+									<a className='heder-heading_link' href='#cars'>
+										тарифы и автомобили
+									</a>
+								</li>
 
-								<li>автомобили</li>
-
+								<li>
+									<span className='heder-heading_link' onClick={click}>
+										правила
+									</span>
+								</li>
 								<li>контакты</li>
 							</ul>
 						</div>
