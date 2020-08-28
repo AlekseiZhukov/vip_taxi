@@ -72,8 +72,8 @@ class Section4 extends React.Component {
 								/>
 								<div className='section4-slide-box-text__footnote'>
 									<p>
-										только трансфер, межгородние поездки, почасовой заказ от 4-х
-										часов.
+										только трансфер, междугородние поездки, почасовой заказ от
+										4-х часов.
 									</p>
 								</div>
 							</div>

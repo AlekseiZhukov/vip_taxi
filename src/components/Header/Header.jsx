@@ -9,7 +9,7 @@ const Pulse = styled.div`
 
 //import { Link } from 'react-router-dom'
 
-export class Header extends Component {
+class Header extends Component {
 	render() {
 		const { click } = this.props
 		return (
@@ -37,7 +37,11 @@ export class Header extends Component {
 										правила
 									</span>
 								</li>
-								<li>контакты</li>
+								<li>
+									<a className='heder-heading_link' href='#section6'>
+										контакты
+									</a>
+								</li>
 							</ul>
 						</div>
 						<Pulse>

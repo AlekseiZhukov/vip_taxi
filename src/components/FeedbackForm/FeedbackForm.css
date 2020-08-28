@@ -1,0 +1,159 @@
+input:focus,
+textarea:focus,
+.closefeedbackForm:focus {
+    outline: none;
+}
+
+.feedbackForm-shading-on,
+.feedbackForm-shading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+}
+
+.feedbackForm-shading {
+    opacity: 0;
+    transition: opacity .2s linear .2s;
+}
+
+.feedbackForm-shading-on {
+    opacity: 1;
+    transition: opacity .2s linear .2s;
+}
+
+.feedbackForm {
+    position: fixed;
+    top: 2vw;
+    left: 17%;
+    width: 60vw;
+    height: 43vw;
+    background: #FBAD3A;
+    border: .7vw solid white;
+    border-radius: 1.5vw;
+    z-index: 2;
+
+
+}
+
+
+
+.feedbackForm h1 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-bottom: 0.7vw;
+    text-align: center;
+}
+
+
+.feedbackForm-Lable {
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    margin: 0 auto 1vw;
+    font-size: 1.5vw;
+    color: white;
+    font-style: italic;
+    margin-bottom: 1.7vw;
+}
+
+.feedbackForm-textArea,
+.feedbackForm-nameInput {
+    font-size: 1.8vw;
+    background: #FBAD3A;
+    color: black;
+    font-family: 'AlegreyaSans', Helvetica, Arial, sans-serif;
+    border: none;
+
+}
+
+.feedbackForm-nameInput {
+    border-bottom: white solid 1px;
+}
+
+.feedbackForm-textArea {
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    border-radius: 1.5vw;
+    height: 8vw;
+    resize: none;
+}
+
+.feedbackForm_container_checkbox {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.feedbackForm-checkbox {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 1vw;
+    font-size: 1.2vw;
+    color: white;
+    font-style: italic;
+    margin-bottom: 1.7vw;
+}
+
+.feedbackForm-input_checkbox {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.checkbox_text {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+.feedbackForm-lableSubmit {
+    position: relative;
+    left: 16vw;
+    width: 10vw;
+    margin: 0;
+
+}
+
+.feedbackForm-submit {
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border: white 2px solid;
+    background-color: #FBAD3A;
+    color: white;
+    border-radius: 0.4vw;
+    cursor: pointer;
+    font-family: 'AlegreyaSans', Helvetica, Arial, sans-serif;
+
+}
+
+.closefeedbackForm:hover,
+.feedbackForm-submit:hover {
+    background: white;
+    color: #FBAD3A;
+
+}
+
+.closefeedbackForm {
+    position: relative;
+
+    left: 24vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    border: white 2px solid;
+    background-color: #FBAD3A;
+    color: white;
+    border-radius: 0.4vw;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'AlegreyaSans', Helvetica, Arial, sans-serif;
+
+}

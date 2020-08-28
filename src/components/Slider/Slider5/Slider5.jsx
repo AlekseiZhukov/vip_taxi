@@ -9,7 +9,8 @@ const FadeIn = styled.div`
 	animation: 1s ${keyframes`${fadeIn}`};
 `
 
-const Slider5 = () => {
+const Slider5 = (props) => {
+	const { feedbackFormOn } = props
 	return (
 		<FadeIn>
 			<div className=' slider5 slider'>
@@ -44,7 +45,11 @@ const Slider5 = () => {
 							</ul>
 						</Slide>
 						<div className='slider-button'>
-							<Button value='заказать такси' className='slider-button_style' />
+							<Button
+								onClick={feedbackFormOn}
+								value='заказать такси'
+								className='slider-button_style'
+							/>
 						</div>
 					</div>
 				</div>

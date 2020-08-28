@@ -27,7 +27,7 @@ class Conditions extends React.Component {
 		const { close } = this.props
 		return (
 			<div className={`${conditionFaid ? 'conditions-on' : 'conditions'}`}>
-				<div className='closeConditions' onClick={close}>
+				<div className='closeConditions' id='closeConditions' onClick={close}>
 					X
 				</div>
 				<div className='conditions-wrapper'>

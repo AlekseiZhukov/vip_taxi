@@ -66,21 +66,22 @@ class SimpleSlider extends React.Component {
 
 	render() {
 		const { slide, mouseOver } = this.state
+		const { feedbackFormOn } = this.props
 		let sl
 		if (slide === 'slider1') {
-			sl = <Slider1 />
+			sl = <Slider1 feedbackFormOn={feedbackFormOn} />
 		}
 		if (slide === 'slider2') {
-			sl = <Slider2 />
+			sl = <Slider2 feedbackFormOn={feedbackFormOn} />
 		}
 		if (slide === 'slider3') {
-			sl = <Slider3 />
+			sl = <Slider3 feedbackFormOn={feedbackFormOn} />
 		}
 		if (slide === 'slider4') {
-			sl = <Slider4 />
+			sl = <Slider4 feedbackFormOn={feedbackFormOn} />
 		}
 		if (slide === 'slider5') {
-			sl = <Slider5 />
+			sl = <Slider5 feedbackFormOn={feedbackFormOn} />
 		}
 
 		return (
