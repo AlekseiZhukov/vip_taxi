@@ -7,9 +7,10 @@ const Input = (props) => {
 		typeInput,
 		placeholderInput,
 		textLable,
-		value,
+
 		required,
 	} = props
+
 	return (
 		<label className={classNameLabel}>
 			{textLable}
@@ -17,7 +18,6 @@ const Input = (props) => {
 				className={classNameInput}
 				type={typeInput}
 				placeholder={placeholderInput}
-				value={value ? value : undefined}
 				required={required ? true : false}
 			/>
 		</label>

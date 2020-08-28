@@ -90,7 +90,7 @@ class FeedbackForm extends React.Component {
 							value='вызвать такси'
 						/>
 						<button className='closefeedbackForm' onClick={close}>
-							отменить
+							Oтменить
 						</button>
 					</form>
 				</div>
