@@ -2,11 +2,11 @@ import React from 'react'
 
 import './SimpleSlider.css'
 
-import icon1_o from '../../SliderImages/bizness-O.svg'
-import icon1_w from '../../SliderImages/bizness-W.svg'
+import icon2_o from '../../SliderImages/bizness-O.svg'
+import icon2_w from '../../SliderImages/bizness-W.svg'
 
-import icon2_o from '../../SliderImages/transfer-O.svg'
-import icon2_w from '../../SliderImages/transfer-W.svg'
+import icon1_o from '../../SliderImages/transfer-O.svg'
+import icon1_w from '../../SliderImages/transfer-W.svg'
 
 import icon3_o from '../../SliderImages/box-O.svg'
 import icon3_w from '../../SliderImages/box-W.svg'
@@ -17,8 +17,8 @@ import icon4_w from '../../SliderImages/clock-W.svg'
 import icon5_o from '../../SliderImages/baby-O.svg'
 import icon5_w from '../../SliderImages/baby-W.svg'
 
-import Slider1 from './Slider1/Slider1'
-import Slider2 from './Slider2/Slider2'
+import Slider2 from './Slider1/Slider1'
+import Slider1 from './Slider2/Slider2'
 import Slider3 from './Slider3/Slider3'
 import Slider4 from './Slider4/Slider4'
 import Slider5 from './Slider5/Slider5'
@@ -34,18 +34,6 @@ class SimpleSlider extends React.Component {
 
 	onClickDiv = (event) => {
 		const id = event.target.id
-
-		if (id === 'slider1') {
-		}
-		if (id === 'slider2') {
-		}
-		if (id === 'slider3') {
-		}
-		if (id === 'slider4') {
-		}
-		if (id === 'slider5') {
-		}
-
 		this.setState({
 			slide: id,
 		})
@@ -90,35 +78,7 @@ class SimpleSlider extends React.Component {
 
 				<div className='section1-sliderIcons'>
 					<div className='section1-sliderIcons-wrapper'>
-						<div
-							onClick={this.onClickDiv}
-							onMouseOver={this.hendleMouseOver}
-							onMouseOut={this.hendleMouseOut}
-							id='slider1'
-							className='section1-sliderIcons-wrapper_icon'
-						>
-							<img
-								id='slider1'
-								src={
-									mouseOver === 'slider1' || slide === 'slider1'
-										? icon1_w
-										: icon1_o
-								}
-								className='section1-sliderIcons_size'
-								alt='слайд1'
-							/>
 
-							<div
-								id='slider1'
-								className={`section1-sliderIcons_txt_wrapper ${
-									slide === 'slider1'
-										? 'section1-sliderIcons_txt_wrapper-wite'
-										: null
-								}`}
-							>
-								Такси<br></br>бизнесс-класса
-							</div>
-						</div>
 						<div
 							onClick={this.onClickDiv}
 							onMouseOver={this.hendleMouseOver}
@@ -146,6 +106,35 @@ class SimpleSlider extends React.Component {
 								}`}
 							>
 								Трансфер аэропорт <br></br>или Ж/Д вокзал
+							</div>
+						</div>
+						<div
+							onClick={this.onClickDiv}
+							onMouseOver={this.hendleMouseOver}
+							onMouseOut={this.hendleMouseOut}
+							id='slider1'
+							className='section1-sliderIcons-wrapper_icon'
+						>
+							<img
+								id='slider1'
+								src={
+									mouseOver === 'slider1' || slide === 'slider1'
+										? icon1_w
+										: icon1_o
+								}
+								className='section1-sliderIcons_size'
+								alt='слайд1'
+							/>
+
+							<div
+								id='slider1'
+								className={`section1-sliderIcons_txt_wrapper ${
+									slide === 'slider1'
+										? 'section1-sliderIcons_txt_wrapper-wite'
+										: null
+								}`}
+							>
+								Такси<br></br>бизнесс-класса
 							</div>
 						</div>
 						<div

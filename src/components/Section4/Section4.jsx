@@ -81,7 +81,7 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Ford Mondeo</h1>
+									<h1>Mercedes-E</h1>
 
 									<ul>
 										<li>
@@ -124,7 +124,7 @@ class Section4 extends React.Component {
 								</div>
 								<img
 									className='section4-img'
-									src='./images/ford.png'
+									src='./images/mersE.png'
 									alt='slide'
 								/>
 							</div>
@@ -174,7 +174,7 @@ class Section4 extends React.Component {
 								</div>
 								<img
 									className='section4-img'
-									src='./images/camry.png'
+									src='./images/camry-big.png'
 									alt='slide'
 								/>
 							</div>
@@ -182,7 +182,7 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Nissan Teana</h1>
+									<h1>Tayota Camry</h1>
 
 									<ul>
 										<li>
@@ -224,7 +224,7 @@ class Section4 extends React.Component {
 								</div>
 								<img
 									className='section4-img'
-									src='./images/nissan.png'
+									src='./images/camry70.png'
 									alt='slide'
 								/>
 							</div>
@@ -232,7 +232,7 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Skoda Superb</h1>
+									<h1>Mersedes Sprinter</h1>
 
 									<ul>
 										<li>
@@ -274,7 +274,7 @@ class Section4 extends React.Component {
 								</div>
 								<img
 									className='section4-img'
-									src='./images/skoda.png'
+									src='./images/Sprinter.png'
 									alt='slide'
 								/>
 							</div>
@@ -282,7 +282,7 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Peugeot 508</h1>
+									<h1>VW Multivan</h1>
 
 									<ul>
 										<li>
@@ -324,12 +324,12 @@ class Section4 extends React.Component {
 								</div>
 								<img
 									className='section4-img'
-									src='./images/pegout.png'
+									src='./images/multivan.png'
 									alt='slide'
 								/>
 							</div>
 						</div>
-						<div>
+						{/*<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
 									<h1>Kia Optima</h1>
@@ -478,7 +478,7 @@ class Section4 extends React.Component {
 									alt='slide'
 								/>
 							</div>
-						</div>
+						</div>*/}
 					</Slider>
 				</div>
 			</div>

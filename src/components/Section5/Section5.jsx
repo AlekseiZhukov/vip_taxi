@@ -46,8 +46,8 @@ const Section5 = () => {
 				</div>
 			</div>
 			<p className='section5_address'>
-				для связи по условиям партнерства тел: +7 902 685 37 99, e-mail:
-				andrey-mineev79@yandex.ru
+				для связи по условиям партнерства тел: +7 (831) 415 99 89, e-mail:
+				vip-taxinn@mail.ru
 			</p>
 		</div>
 	)

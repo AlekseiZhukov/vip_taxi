@@ -26,8 +26,8 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-
-    width: 50%;
+    text-align: center;
+    width: 90%;
     height: 90%;
     padding: 0 2vw;
 }
@@ -37,6 +37,9 @@
     font-size: 1.3vw;
     color: white;
 }
+.section6-wrapper_box ul li {
+list-style-type: none;
+}
 
 .section6-wrapper_box p {
     font-size: 1.3vw;
@@ -45,7 +48,8 @@
 }
 
 .section6-frame {
-    width: 41vw;
-    height: 13vw;
+    width: 90%;
+    height: 23vw;
     border-radius: 1vw;
+    margin: 0 auto;
 }

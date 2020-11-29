@@ -1,7 +1,7 @@
 h1 {
 	font-size: 3.2vw;
 	color: #FBAD3A;
-	font-weight: 550;
+	font-weight: 500;
 }
 
 .slider-box {
@@ -10,7 +10,7 @@ h1 {
 	height: 29vw;
 	flex-flow: column nowrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .slider-box-heder {
@@ -102,7 +102,7 @@ h1 {
 }
 
 .slider2 {
-	background: url(../../SliderImages/slider2.jpg) no-repeat;
+	background: url(../../SliderImages/slider22.png) no-repeat;
 	background-position: center;
 	background-size: cover;
 }

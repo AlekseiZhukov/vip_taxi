@@ -1,17 +1,13 @@
 import React from 'react'
 import '../Slider.css'
-import Button from '../../Button/Button'
-
 import styled, { keyframes } from 'styled-components'
 import { fadeIn } from 'react-animations'
 import Slide from 'react-reveal/Slide'
 
-const FadeIn = styled.div`
-	animation: 1s ${keyframes`${fadeIn}`};
-`
+const FadeIn = styled.div`animation: 1s ${keyframes`${fadeIn}`};`
 
-const Slider2 = (props) => {
-	const { feedbackFormOn } = props
+const Slider2 = () => {
+
 	return (
 		<FadeIn>
 			<div className=' slider2 slider'>
@@ -19,7 +15,7 @@ const Slider2 = (props) => {
 				<div className='slider-wrapper'>
 					<div className='slider-box'>
 						<h1 className='slider-box-heder slider2-box-heder'>
-							Трансфер аэропорт или Ж/Д вокзал
+							Трансфер аэропорт и ж/д вокзал
 						</h1>
 						<Slide right cascade>
 							<ul className='slider-list'>
@@ -50,13 +46,7 @@ const Slider2 = (props) => {
 								</li>
 							</ul>
 						</Slide>
-						<div className='slider-button'>
-							<Button
-								onClick={feedbackFormOn}
-								value='заказать такси'
-								className='slider-button_style'
-							/>
-						</div>
+
 					</div>
 				</div>
 			</div>

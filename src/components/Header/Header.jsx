@@ -45,8 +45,9 @@ class Header extends Component {
 							</ul>
 						</div>
 						<Pulse>
-							<span className='heder-tel'>+7 (831) 415 88 88 </span>
+							<div className='heder-tel'>+7 (831) 415 99 89 </div>
 						</Pulse>
+
 					</div>
 				</div>
 			</div>
