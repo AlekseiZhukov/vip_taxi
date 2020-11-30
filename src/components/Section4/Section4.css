@@ -35,8 +35,7 @@ div:focus {
 }
 
 .section4-slide-box {
-	/*background: url(./img/background4.png) no-repeat;
-    background-size: cover;*/
+
 	position: absolute;
 	height: 15vw;
 	width: 30vw;
@@ -52,8 +51,7 @@ div:focus {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	/*background: rgba(0, 0, 0, 0.6);
-    border-radius: 1vw;*/
+
 }
 
 .section4-slide-box-text {
@@ -78,7 +76,7 @@ div:focus {
 .section4-slide-box-text ul {
 	margin: 0;
 	padding: 0;
-	padding-left: 3.9vw;
+	padding-left: 3vw;
 	font-size: 1.3vw;
 	font-weight: bold;
 	color: white;

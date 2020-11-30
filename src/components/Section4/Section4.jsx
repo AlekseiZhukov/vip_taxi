@@ -30,7 +30,7 @@ class Section4 extends React.Component {
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												1500р в час или 80р за км
+												от 1500р в час или 80р за км
 											</span>
 										</li>
 
@@ -86,7 +86,7 @@ class Section4 extends React.Component {
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												1500р в час или 80р за км
+												от 1500р в час или 80р за км
 											</span>
 										</li>
 
@@ -137,7 +137,7 @@ class Section4 extends React.Component {
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
+												от 750р в час или 40р за км
 											</span>
 										</li>
 
@@ -187,7 +187,7 @@ class Section4 extends React.Component {
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
+												от 750р в час или 40р за км
 											</span>
 										</li>
 
@@ -237,7 +237,7 @@ class Section4 extends React.Component {
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
+												от 750р в час или 40р за км
 											</span>
 										</li>
 
@@ -287,7 +287,7 @@ class Section4 extends React.Component {
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
+												от 750р в час или 40р за км
 											</span>
 										</li>
 
@@ -329,156 +329,7 @@ class Section4 extends React.Component {
 								/>
 							</div>
 						</div>
-						{/*<div>
-							<div className='section4-slide'>
-								<div className='section4-slide-box-text'>
-									<h1>Kia Optima</h1>
 
-									<ul>
-										<li>
-											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
-											</span>
-										</li>
-
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												при посадке ожидание до 10 минут бесплатно
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												ожидание свыше 10 минут — 12,50 руб. минута
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ при почасовой оплате 2 часа
-											</span>
-										</li>
-									</ul>
-									<div className='section4-slide-box-text-colors'>
-										<p>
-											<span className='section4-slide-box-text-colors_header'>
-												ДОСТУПНЫЙ ЦВЕТ:
-											</span>
-										</p>
-										<div className='section4-slide-box-text-colors_black'></div>
-										<div className='section4-slide-box-text-colors_white'></div>
-									</div>
-								</div>
-								<img
-									className='section4-img'
-									src='./images/kia.png'
-									alt='slide'
-								/>
-							</div>
-						</div>
-						<div>
-							<div className='section4-slide'>
-								<div className='section4-slide-box-text'>
-									<h1>Hyundai Sonata</h1>
-
-									<ul>
-										<li>
-											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
-											</span>
-										</li>
-
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												при посадке ожидание до 10 минут бесплатно
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												ожидание свыше 10 минут — 12,50 руб. минута
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ при почасовой оплате 2 часа
-											</span>
-										</li>
-									</ul>
-									<div className='section4-slide-box-text-colors'>
-										<p>
-											<span className='section4-slide-box-text-colors_header'>
-												ДОСТУПНЫЙ ЦВЕТ:
-											</span>
-										</p>
-										<div className='section4-slide-box-text-colors_black'></div>
-										<div className='section4-slide-box-text-colors_white'></div>
-									</div>
-								</div>
-								<img
-									className='section4-img'
-									src='./images/sonata.png'
-									alt='slide'
-								/>
-							</div>
-						</div>
-						<div>
-							<div className='section4-slide'>
-								<div className='section4-slide-box-text'>
-									<h1>Chevrolet Epica</h1>
-
-									<ul>
-										<li>
-											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
-											</span>
-										</li>
-
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												при посадке ожидание до 10 минут бесплатно
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												ожидание свыше 10 минут — 12,50 руб. минута
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ при почасовой оплате 2 часа
-											</span>
-										</li>
-									</ul>
-									<div className='section4-slide-box-text-colors'>
-										<p>
-											<span className='section4-slide-box-text-colors_header'>
-												ДОСТУПНЫЙ ЦВЕТ:
-											</span>
-										</p>
-										<div className='section4-slide-box-text-colors_black'></div>
-										<div className='section4-slide-box-text-colors_white'></div>
-									</div>
-								</div>
-								<img
-									className='section4-img'
-									src='./images/epica.png'
-									alt='slide'
-								/>
-							</div>
-						</div>*/}
 					</Slider>
 				</div>
 			</div>

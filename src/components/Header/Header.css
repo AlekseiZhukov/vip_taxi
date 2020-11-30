@@ -43,6 +43,10 @@
     font-size: 3vw;
     font-weight: lighter;
 }
+.heder-tel a {
+    text-decoration: none;
+    color: white;
+}
 
 .heder-tel::before {
     content: "";
