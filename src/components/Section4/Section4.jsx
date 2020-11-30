@@ -25,18 +25,18 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Mercedes-E</h1>
+									<h1>Mercedes S-klass</h1>
 
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
+												1500р в час или 80р за км
 											</span>
 										</li>
 
 										<li>
 											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
+												минимальный заказ 700 руб. до 4 км
 											</span>
 										</li>
 										<li>
@@ -46,7 +46,7 @@ class Section4 extends React.Component {
 										</li>
 										<li>
 											<span className='section4-slide-box-text_li'>
-												ожидание свыше 10 минут — 12,50 руб. минута
+												ожидание свыше 10 минут — 25 руб. минута
 											</span>
 										</li>
 										<li>
@@ -81,18 +81,18 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Mercedes-E</h1>
+									<h1>Mercedes E-klass</h1>
 
 									<ul>
 										<li>
 											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
+												1500р в час или 80р за км
 											</span>
 										</li>
 
 										<li>
 											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
+												минимальный заказ 700 руб. до 4 км
 											</span>
 										</li>
 										<li>
@@ -102,7 +102,7 @@ class Section4 extends React.Component {
 										</li>
 										<li>
 											<span className='section4-slide-box-text_li'>
-												ожидание свыше 10 минут — 12,50 руб. минута
+												ожидание свыше 10 минут — 25 руб. минута
 											</span>
 										</li>
 										<li>
@@ -119,7 +119,7 @@ class Section4 extends React.Component {
 										</p>
 										<div className='section4-slide-box-text-colors_black'></div>
 										<div className='section4-slide-box-text-colors_white'></div>
-										<div className='section4-slide-box-text-colors_gray'></div>
+
 									</div>
 								</div>
 								<img
@@ -132,57 +132,7 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Tayota Camry</h1>
-
-									<ul>
-										<li>
-											<span className='section4-slide-box-text_tariff'>
-												750р в час или 40р за км
-											</span>
-										</li>
-
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												при посадке ожидание до 10 минут бесплатно
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												ожидание свыше 10 минут — 12,50 руб. минута
-											</span>
-										</li>
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ при почасовой оплате 2 часа
-											</span>
-										</li>
-									</ul>
-									<div className='section4-slide-box-text-colors'>
-										<p>
-											<span className='section4-slide-box-text-colors_header'>
-												ДОСТУПНЫЙ ЦВЕТ:
-											</span>
-										</p>
-										<div className='section4-slide-box-text-colors_black'></div>
-										<div className='section4-slide-box-text-colors_white'></div>
-									</div>
-								</div>
-								<img
-									className='section4-img'
-									src='./images/camry-big.png'
-									alt='slide'
-								/>
-							</div>
-						</div>
-						<div>
-							<div className='section4-slide'>
-								<div className='section4-slide-box-text'>
-									<h1>Tayota Camry</h1>
+									<h1>Toyota Camry v70</h1>
 
 									<ul>
 										<li>
@@ -232,7 +182,57 @@ class Section4 extends React.Component {
 						<div>
 							<div className='section4-slide'>
 								<div className='section4-slide-box-text'>
-									<h1>Mersedes Sprinter</h1>
+									<h1>Toyota Camry v55</h1>
+
+									<ul>
+										<li>
+											<span className='section4-slide-box-text_tariff'>
+												750р в час или 40р за км
+											</span>
+										</li>
+
+										<li>
+											<span className='section4-slide-box-text_li'>
+												минимальный заказ 350 руб. до 4 км
+											</span>
+										</li>
+										<li>
+											<span className='section4-slide-box-text_li'>
+												при посадке ожидание до 10 минут бесплатно
+											</span>
+										</li>
+										<li>
+											<span className='section4-slide-box-text_li'>
+												ожидание свыше 10 минут — 12,50 руб. минута
+											</span>
+										</li>
+										<li>
+											<span className='section4-slide-box-text_li'>
+												минимальный заказ при почасовой оплате 2 часа
+											</span>
+										</li>
+									</ul>
+									<div className='section4-slide-box-text-colors'>
+										<p>
+											<span className='section4-slide-box-text-colors_header'>
+												ДОСТУПНЫЙ ЦВЕТ:
+											</span>
+										</p>
+										<div className='section4-slide-box-text-colors_black'></div>
+										<div className='section4-slide-box-text-colors_white'></div>
+									</div>
+								</div>
+								<img
+									className='section4-img'
+									src='./images/camry-big.png'
+									alt='slide'
+								/>
+							</div>
+						</div>
+						<div>
+							<div className='section4-slide'>
+								<div className='section4-slide-box-text'>
+									<h1>Mercedes Sprinter</h1>
 
 									<ul>
 										<li>
