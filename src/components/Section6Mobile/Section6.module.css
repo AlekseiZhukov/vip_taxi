@@ -1,0 +1,63 @@
+.section6M {
+    padding-top: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 330px;
+}
+
+.section6WrapperBox h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+.section6Wrapper {
+
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+
+.section6WrapperBox {
+       text-align: center;
+
+}
+
+.section6WrapperBox ul {
+    font-size: 14px;
+    color: white;
+    padding: 0;
+}
+.section6WrapperBox ul li {
+list-style-type: none;
+    margin: 2px;
+}
+
+.section6Frame {
+    width: 300px;
+    height: 170px;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+.headerTel {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 10px 0 0;
+}
+.headerTel a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerTel::before {
+    content: "";
+    background: url(../Header/tel.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}

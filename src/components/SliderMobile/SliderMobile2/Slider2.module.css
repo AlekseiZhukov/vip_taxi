@@ -1,0 +1,51 @@
+.slider {
+    background: url(../../../SliderImages/slider22.png) no-repeat;
+    background-position: center;
+    height: 190px;
+    z-index: -1;
+    position: relative;
+}
+.sliderTitleWrapper {
+    position: relative;
+    top: 10px;
+    text-align: center;
+
+}
+.sliderTitleWrapper::before {
+    content: "";
+    background: url(./transfer.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 6px;
+    left: 22px;
+    height: 35px;
+    width: 35px;
+    z-index: 1;
+}
+.titleSlider {
+    color: white;
+    position: relative;
+    padding:  10px;
+    font-size: 16px;
+    left: 20px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+
+
+.list {
+    position: relative;
+    color: #FBAD3A;
+    font-size: 12px;
+    margin: 25px 0 0 ;
+    z-index: 1;
+}
+
+
+.list li {
+    margin-bottom: 7px;
+}
+.listMarkersColor {
+    color: white;
+}

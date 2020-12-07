@@ -1,0 +1,102 @@
+.headerMobile {
+    background-color: black;
+    height: auto;
+
+}
+
+.headerWrapperMobile {
+    height: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.headerBoxMobile {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headerLogoMobile {
+    width: 50px;
+}
+.headerHeadingWrapperMobile {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerHeadingMobile {
+    color: white;
+    font-family: 'AlegreyaSans-Bold';
+    letter-spacing: 0.07em;
+    font-size: 17px;
+    margin: 3px 0 0;
+}
+
+.headerHeadingWord {
+    color: #FBAD3A;
+}
+
+.headerTel {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 10px 0 0;
+}
+.headerTel a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerTel::before {
+    content: "";
+    background: url(../Header/tel.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav li {
+    height: 16px;
+    color: #FBAD3A;
+    list-style-type: none;
+    border-bottom: 1px solid #FBAD3A;
+    transition: border-bottom .2s linear 0.2s;
+}
+
+.nav li:hover {
+    border-bottom: 1px solid white;
+    transition: border-bottom .2s linear 0.2s;
+}
+
+.headerHeadingLink {
+    text-decoration: none;
+    color: #FBAD3A;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color .2s linear 0.2s;
+}
+
+.headerHeadingLink:hover {
+    color: white;
+    transition: color .2s linear 0.2s;
+}

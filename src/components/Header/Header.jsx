@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Header.css'
-import logo from '../Header/logoVipTaxi.svg'
+import logo from './logoVipTaxi.svg'
 import styled, { keyframes } from 'styled-components'
 import { pulse } from 'react-animations'
 const Pulse = styled.div`
@@ -16,7 +16,7 @@ class Header extends Component {
 			<div className='header'>
 				<div className='header-wrapper'>
 					<div className='heder-box'>
-						<img src={logo} alt='логотип' className='header-logo' />
+						<img className='header-logo' src={logo} alt='логотип'  />
 
 						<div className='nav-box'>
 							<h1 className='heder-heading'>

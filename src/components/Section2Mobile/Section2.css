@@ -1,0 +1,122 @@
+.section2M {
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: -4vw;
+}
+
+.section2-wrapperM {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 20px  auto 0;
+}
+
+.section2-boxM {
+    width: 115px;
+    height: 50%;
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.section2-box_hederM {
+    color: #FBAD3A;
+    font-size: 14px;
+    margin: 3px 0;
+    position: relative;
+}
+
+.section2-box1_hederM::before {
+    content: "";
+    background: url(../Section2/soberdriver.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: -1.2vw;
+    left: -8vw;
+}
+
+.section2-box2_hederM::before {
+    content: "";
+    background: url(../Section2/ChooswCars.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: -1.2vw;
+    left: -8vw;
+}
+
+.section2-box3_hederM::before {
+    content: "";
+    background: url(../Section2/BabyChair.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -6vw;
+}
+
+.section2-box4_hederM::before {
+    content: "";
+    background: url(../Section2/bankcards.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -7vw;
+}
+
+.section2-box5_hederM::before {
+    content: "";
+    background: url(../Section2/incognito.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -7vw;
+}
+
+.section2-box6_hederM::before {
+    content: "";
+    background: url(../Section2/driver.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 7vw;
+    height: 5vw;
+    top: -1vw;
+    left: -7vw;
+}
+
+.section2-box-textM {
+    margin: 3px 0;
+}
+.heder-telM {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 10px 0 0;
+    text-align: center;
+}
+.heder-telM a {
+    text-decoration: none;
+    color: white;
+}
+
+.heder-telM::before {
+    content: "";
+    background: url(../Header/tel.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}

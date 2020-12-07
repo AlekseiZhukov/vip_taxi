@@ -1,0 +1,86 @@
+.sectionAdditionM {
+    position: relative;
+    background: rgb(89, 89, 89);
+    height: 200px;
+
+
+}
+
+.sectionAdditionWrapperM {
+    height: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.sectionAdditionWrapperBoxM {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.sectionAdditionHeder1M,
+.sectionAdditionHeder2M,
+.sectionAdditionHeder3M {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.sectionAdditionHeder1M h3,
+.sectionAdditionHeder2M h3,
+.sectionAdditionHeder3M h3 {
+    color: #FBAD3A;
+    font-size: 12px;
+    position: relative;
+    margin: 0;
+    text-align: center;
+    width: 50px;
+}
+.sectionAdditionHeder1M h3 {
+    top: 40px
+}
+.sectionAdditionHeder2M h3 {
+    top: 31px
+}
+.sectionAdditionHeder3M h3 {
+    top: 31px
+}
+.sectionAdditionHeder1M p,
+.sectionAdditionHeder2M p,
+.sectionAdditionHeder3M p {
+    color: white;
+    font-size: 12px;
+    margin: 7px 0 0 7px;
+    width: 235px;
+}
+.sectionAdditionHeder1M::before {
+    content: "";
+    background: url(../../SliderImages/transfer-O.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 9px;
+    left: 9px;
+}
+
+.sectionAdditionHeder2M::before {
+    content: "";
+    background: url(../Section2/ChooswCars.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 9px;
+    left: 9px;
+}
+
+.sectionAdditionHeder3M::before {
+    content: "";
+    background: url(../SectionSddition/rub.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 9px;
+    left: 11px;
+}
