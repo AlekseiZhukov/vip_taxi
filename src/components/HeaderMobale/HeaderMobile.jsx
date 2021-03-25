@@ -46,7 +46,7 @@ class HeaderMobile extends Component {
 							</ul>
 
 						<Pulse>
-							<div className={style.headerTel}><a href="tel:+7831415989">+7 (831) 415 99 89</a></div>
+							<div className={style.headerTel}><a href="tel:+78314159989">+7 (831) 415 99 89</a></div>
 						</Pulse>
 
 					</div>
