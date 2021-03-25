@@ -18,9 +18,7 @@ class Section4Mobile extends React.Component {
 			<div className='section4M' id='cars'>
 				<div className='section4-blackoutM'></div>
 				<div className='section4-wrapperM'>
-					{/*<div className='section4-slide-boxM'>
-						<div className='section4-slide-box_shadingM'></div>
-					</div>*/}
+
 					<Slider {...settings}>
 						<div>
 							<div className='section4-slideM'>
@@ -34,11 +32,7 @@ class Section4Mobile extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ 700 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												при посадке ожидание до 10 минут бесплатно
@@ -85,11 +79,7 @@ class Section4Mobile extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ 700 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												при посадке ожидание до 10 минут бесплатно
@@ -136,11 +126,7 @@ class Section4Mobile extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												при посадке ожидание до 10 минут бесплатно
@@ -186,11 +172,7 @@ class Section4Mobile extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												при посадке ожидание до 10 минут бесплатно
@@ -236,11 +218,7 @@ class Section4Mobile extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												при посадке ожидание до 10 минут бесплатно
@@ -249,6 +227,11 @@ class Section4Mobile extends React.Component {
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												ожидание свыше 10 минут — 12,50 руб. минута
+											</span>
+										</li>
+										<li>
+											<span className='section4-slide-box-text_liM'>
+												минимальный заказ при почасовой оплате 2 часа
 											</span>
 										</li>
 
@@ -264,9 +247,7 @@ class Section4Mobile extends React.Component {
 									</div>
 								</div>
 								<div  className='section4-slide-box-text-lastLine'>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ при почасовой оплате 2 часа
-											</span>
+
 								</div>
 								<img
 									className='section4-imgM'
@@ -287,11 +268,7 @@ class Section4Mobile extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												при посадке ожидание до 10 минут бесплатно
@@ -300,6 +277,11 @@ class Section4Mobile extends React.Component {
 										<li>
 											<span className='section4-slide-box-text_liM'>
 												ожидание свыше 10 минут — 12,50 руб. минута
+											</span>
+										</li>
+										<li>
+											<span className='section4-slide-box-text_liM'>
+												минимальный заказ при почасовой оплате 2 часа
 											</span>
 										</li>
 
@@ -315,9 +297,7 @@ class Section4Mobile extends React.Component {
 									</div>
 								</div>
 								<div  className='section4-slide-box-text-lastLine'>
-											<span className='section4-slide-box-text_liM'>
-												минимальный заказ при почасовой оплате 2 часа
-											</span>
+
 								</div>
 								<img
 									className='section4-imgM'

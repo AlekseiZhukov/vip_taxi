@@ -34,11 +34,7 @@ class Section4 extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 700 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_li'>
 												при посадке ожидание до 10 минут бесплатно
@@ -90,11 +86,7 @@ class Section4 extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 700 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_li'>
 												при посадке ожидание до 10 минут бесплатно
@@ -141,11 +133,7 @@ class Section4 extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_li'>
 												при посадке ожидание до 10 минут бесплатно
@@ -191,11 +179,7 @@ class Section4 extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_li'>
 												при посадке ожидание до 10 минут бесплатно
@@ -241,11 +225,7 @@ class Section4 extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_li'>
 												при посадке ожидание до 10 минут бесплатно
@@ -291,11 +271,7 @@ class Section4 extends React.Component {
 											</span>
 										</li>
 
-										<li>
-											<span className='section4-slide-box-text_li'>
-												минимальный заказ 350 руб. до 4 км
-											</span>
-										</li>
+
 										<li>
 											<span className='section4-slide-box-text_li'>
 												при посадке ожидание до 10 минут бесплатно

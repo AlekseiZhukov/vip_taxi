@@ -33,9 +33,9 @@
 .headerHeadingMobile {
     color: white;
     font-family: 'AlegreyaSans-Bold';
-    letter-spacing: 0.07em;
-    font-size: 17px;
-    margin: 3px 0 0;
+    letter-spacing: 0.04em;
+    font-size: 18px;
+    margin: 5px 0 5px;
 }
 
 .headerHeadingWord {
@@ -90,8 +90,8 @@
 .headerHeadingLink {
     text-decoration: none;
     color: #FBAD3A;
-    font-size: 10px;
-    text-transform: uppercase;
+    font-size: 15px;
+
     cursor: pointer;
     transition: color .2s linear 0.2s;
 }

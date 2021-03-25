@@ -105,7 +105,7 @@ class SimpleSlider extends React.Component {
 										: null
 								}`}
 							>
-								Трансфер аэропорт <br></br>или Ж/Д вокзал
+								Такси<br></br>бизнесс-класса
 							</div>
 						</div>
 						<div
@@ -134,7 +134,7 @@ class SimpleSlider extends React.Component {
 										: null
 								}`}
 							>
-								Такси<br></br>бизнесс-класса
+								Трансфер аэропорт <br></br>или Ж/Д вокзал
 							</div>
 						</div>
 						<div
